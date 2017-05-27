@@ -59,6 +59,20 @@ namespace NeuralNetwork
 
     public class BackPropagationNetwork
     {
+        #region Constructors
+
+        public BackPropagationNetwork(int[] layerSizes, TransferFunction[] tFuncs)
+        {
+            // Validate the input data
+            if (tFuncs.Length != layerSizes.Length || tFuncs[0] != TransferFunction.None)
+                throw new ArgumentException("Cannot construct a network with these parameters.");
+
+            // Initialize network layers
+            layerCount
+        }
+
+        #endregion
+
         #region Private data
 
         private int layerCount;
