@@ -63,6 +63,17 @@ namespace NeuralNetwork
 
         private int layerCount;
         private int inputSize;
+        private int[] layerSize;
+        private TransferFunction[] transferFunction;
+
+        private double[][] layerOutput;
+        private double[][] layerInput;
+        private double[][] bias;
+        private double[][] delta;
+        private double[][] previousBiasDelta;
+
+        private double[][][] weight;
+        private double[][][] previousWeightDelta;
 
         #endregion
     }
