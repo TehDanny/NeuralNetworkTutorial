@@ -59,9 +59,11 @@ namespace NeuralNetwork
 
     public class BackPropagationNetwork
     {
-        public BackPropagationNetwork()
-        {
-            Console.WriteLine("Neural network!");
-        }
+        #region Private data
+
+        private int layerCount;
+        private int inputSize;
+
+        #endregion
     }
 }
