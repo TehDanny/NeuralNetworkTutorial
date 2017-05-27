@@ -49,6 +49,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NeuralNetwork\NeuralNetwork.csproj">
+      <Project>{843ef60c-0cd1-4c31-95ae-e14977b50445}</Project>
+      <Name>NeuralNetwork</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

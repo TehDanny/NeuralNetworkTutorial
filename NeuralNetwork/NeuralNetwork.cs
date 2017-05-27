@@ -8,5 +8,9 @@ namespace NeuralNetwork
 {
     public class BackPropagationNetwork
     {
+        public BackPropagationNetwork()
+        {
+            Console.WriteLine("Neural network!");
+        }
     }
 }
